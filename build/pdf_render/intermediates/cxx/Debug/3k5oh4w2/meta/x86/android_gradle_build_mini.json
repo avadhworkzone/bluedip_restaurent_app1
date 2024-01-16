@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/techcureindia/.pub-cache/hosted/pub.dev/pdf_render-1.4.0/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/techcureindia/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/techcureindia/.pub-cache/hosted/pub.dev/pdf_render-1.4.0/android/.cxx/Debug/3k5oh4w2/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/techcureindia/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/techcureindia/.pub-cache/hosted/pub.dev/pdf_render-1.4.0/android/.cxx/Debug/3k5oh4w2/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bbhelper::@6890427a1f51a3e7e1df": {
+      "artifactName": "bbhelper",
+      "abi": "x86",
+      "output": "/Users/techcureindia/Documents/Github/bludip_restaurant_app/build/pdf_render/intermediates/cxx/Debug/3k5oh4w2/obj/x86/libbbhelper.so",
+      "runtimeFiles": []
+    }
+  }
+}

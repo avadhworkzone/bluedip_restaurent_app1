@@ -1,0 +1,251 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluedip_restaurent"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:3:5-4:66
+16-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:4:9-63
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:5:5-6:68
+17-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:6:9-65
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:7:5-81
+18-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:7:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:8:5-80
+19-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:8:22-77
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:9:5-77
+20-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:9:22-74
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:10:5-84
+21-->/Users/techcureindia/Documents/Github/bludip_restaurant_app/android/app/src/main/AndroidManifest.xml:10:22-82
+22
+23    <queries>
+23-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+24        <intent>
+24-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+25            <action android:name="android.intent.action.GET_CONTENT" />
+25-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+25-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+26
+27            <data android:mimeType="*/*" />
+27-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+27-->[:file_picker] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+28        </intent>
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+31    </queries> <!-- Include required permissions for Google Maps API to run. -->
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+37
+38    <permission
+38-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+39        android:name="com.example.bluedip_restaurent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.example.bluedip_restaurent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+43
+44    <application
+45        android:name="android.app.Application"
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/19c559bc294f0f289ffc8e1e049ca674/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+49        android:label="Bluedip Partners"
+50        android:requestLegacyExternalStorage="true" >
+51        <meta-data
+52            android:name="com.google.android.geo.API_KEY"
+53            android:value="AIzaSyA95kR4zoYPpDInKgemfdZk6g15KiObjgg" />
+54
+55        <activity
+56            android:name="com.example.bluedip_restaurent.MainActivity"
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+58            android:exported="true"
+59            android:hardwareAccelerated="true"
+60            android:launchMode="singleTop"
+61            android:theme="@style/LaunchTheme"
+62            android:windowSoftInputMode="adjustResize" >
+63
+64            <!--
+65                 Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+71                android:name="io.flutter.embedding.android.NormalTheme"
+72                android:resource="@style/NormalTheme" />
+73
+74            <intent-filter>
+75                <action android:name="android.intent.action.MAIN" />
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+85            android:name="flutterEmbedding"
+86            android:value="2" />
+87
+88        <service
+88-->[:geolocator_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+89            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+89-->[:geolocator_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+90            android:enabled="true"
+90-->[:geolocator_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+91            android:exported="false"
+91-->[:geolocator_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+92            android:foregroundServiceType="location" />
+92-->[:geolocator_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+93
+94        <provider
+94-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+95            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+95-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+96            android:authorities="com.example.bluedip_restaurent.flutter.image_provider"
+96-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+97            android:exported="false"
+97-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+98            android:grantUriPermissions="true" >
+98-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+99            <meta-data
+99-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+101                android:resource="@xml/flutter_image_picker_file_paths" />
+101-->[:image_picker_android] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+102        </provider>
+103
+104        <service
+104-->[:location] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+105            android:name="com.lyokone.location.FlutterLocationService"
+105-->[:location] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+106            android:enabled="true"
+106-->[:location] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+107            android:exported="false"
+107-->[:location] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+108            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
+108-->[:location] /Users/techcureindia/Documents/Github/bludip_restaurant_app/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+109        <uses-library
+109-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+110            android:name="org.apache.http.legacy"
+110-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+111            android:required="false" />
+111-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/99fb85c301698f5b895535b82d2414ac/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/9344ee1ab885068496b151a1bb42a8ea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/9344ee1ab885068496b151a1bb42a8ea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/9344ee1ab885068496b151a1bb42a8ea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/9344ee1ab885068496b151a1bb42a8ea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/687c2ec5c769ccfc9905ce93f164a70e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/687c2ec5c769ccfc9905ce93f164a70e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/687c2ec5c769ccfc9905ce93f164a70e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+121
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.window.extensions"
+123-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+125        <uses-library
+125-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+126            android:name="androidx.window.sidecar"
+126-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+127            android:required="false" />
+127-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/0b45b93927f66da441bf06d6c6b58824/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+128
+129        <provider
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+130            android:name="androidx.startup.InitializationProvider"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+131            android:authorities="com.example.bluedip_restaurent.androidx-startup"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+132            android:exported="false" >
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+133            <meta-data
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+135                android:value="androidx.startup" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+136        </provider>
+137
+138        <receiver
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+139            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+140            android:directBootAware="false"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+141            android:enabled="true"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+142            android:exported="true"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+143            android:permission="android.permission.DUMP" >
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+145                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+148                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+151                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+154                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/techcureindia/.gradle/caches/transforms-3/d606965a22cdc56b7a674b7eed86df83/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+155            </intent-filter>
+156        </receiver>
+157    </application>
+158
+159</manifest>
